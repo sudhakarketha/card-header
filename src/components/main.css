@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+
+
+}
+
+.content {
+    width: 70%;
+    display: flex;
+
+    /* justify-content: center; */
+    /* align-items: center; */
+
+    background-color: white;
+    box-shadow: 1px 3px 9px 5px rgba(0, 0, 0, 0.1);
+    /* padding: 1rem 2rem; */
+    border-radius: 4px;
+}
+
+.course {
+    width: 30%;
+    border-radius: 4px 0 0 4px;
+    background-color: #2C2464;
+    padding: 0.5rem 1rem;
+
+}
+
+.chapter {
+    width: 70%;
+    padding: 0.5rem 1rem;
+}
+
+.custom-range {
+    width: 100px;
+    /* Adjust the width as needed */
+    height: 5px;
+    /* Adjust the height as needed */
+    margin:  0.5rem;
+    /* Remove any default margin */
+    padding: 0;
+    /* Remove any default padding */
+    background-color: blue;
+    /* Background color of the range track */
+    border: none;
+    /* Remove the default border */
+    border-radius: 5px;
+    /* Rounded corners */
+}
+
+/* .custom-range::-webkit-slider-runnable-track {
+    appearance: none !important;
+    /* Remove the default tooltip for WebKit browsers 
+} */
+/* 
+.custom-range::-moz-range-progress {
+    background-color: transparent;
+    /* Remove the default tooltip for Firefox 
+} */
+
+
+
+.lmain {
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: center;
+    padding: 1rem 2rem;
+    margin: 100px auto;
+    background-color: #8381E5;
+    box-shadow: 1px 4px 9px;
+}
+
+
+/* .rmain {
+    width: 30%;
+    background-color: black;
+} */
+
+button {
+    border: none;
+    background: none;
+
+    font-size: 12px;
+}
+
+button i {
+    margin: 0 0.5rem;
+}
+
+h3 {
+    letter-spacing: 1px;
+    font-size: 11px;
+    padding: 0 0 1rem;
+    color: #E6E6F2;
+}
+
+h4 {
+    font-size: 8px;
+    padding: 0.5rem;
+    color: #696790;
+    letter-spacing: 1px;
+}
+
+button {
+    color: #C4BCE2;
+    font-size: 9px;
+    padding: 1rem 0;
+    cursor: pointer;
+}
+
+/* -------------------------- */
+
+.chapter-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+p {
+    color: #2C2464;
+}
+
+.btn {
+    position: absolute;
+    float: left;
+}
+
+
+.challenges {
+    display: flex;
+    justify-content: end;
+    font-size: 8px;
+    color: #2C2464;
+    padding: .5rem 0;
+
+}
+
+.continue {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    float: left;
+}
+
+p {
+    padding: 0 0.5rem;
+}
+
+
+.continue button {
+
+    background-color: #2C2464;
+    font-size: 12px;
+    display: flex;
+    padding: 0.5rem 1.5rem;
+    color: #E6E6F2;
+    margin-top: 2rem;
+    border-radius: 20px;
+    cursor: pointer;
+
+
+}
+
+button .btn {
+    display: flex;
+    justify-content: end;
+}
+
+/* input[type=range] {
+    font-size: 12px !important;
+
+} */
